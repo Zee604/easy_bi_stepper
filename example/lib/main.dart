@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     List<StepperData> stepperData = [
       StepperData(
-          title: Column(
+          title: Row(
             children: [
               Container(
                 height: 40.0,
@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
            ),
       StepperData(
-          title: Column(
+          title: Row(
             children: [
               Container(
                 height: 40.0,
@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
           ),
       StepperData(
-          title: Column(
+          title: Row(
             children: [
               Container(
                 height: 40.0,
@@ -115,7 +115,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
           ),
       StepperData(
-        title: Column(
+        title: Row(
           children: [
             Container(
               height: 40.0,

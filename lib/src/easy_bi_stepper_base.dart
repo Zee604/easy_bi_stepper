@@ -125,7 +125,7 @@ class EasyBiStepperItem extends StatelessWidget {
                 ),
               ],
             ),
-      const SizedBox(width: 16),
+      const SizedBox(width: 12),
       Expanded(
         child: item.title != null ? item.title! : SizedBox(),
       ),
